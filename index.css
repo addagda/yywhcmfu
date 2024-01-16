@@ -2,10 +2,10 @@
     padding: 0px;
     margin: 0px;
 }
-/* 
+
 body {
-    background-color: chartreuse;
-} */
+    height: 1100px;
+}
 
 .head_1 {
     width: 100%;
@@ -75,12 +75,12 @@ body {
 
 .nav {
     list-style: none;
-    margin: 1.5% auto 0%;
+    margin: 2% auto 0%;
 }
 
 .nav>li {
     float: left;
-    margin-left: 3.4%;
+    margin-left: 10%;
     padding: 0% 0% 2%;
     position: relative;
 }
@@ -398,4 +398,9 @@ a:hover .line_top {
     width: 70%;
     cursor: pointer;
     object-fit: fill;
+}
+.red-c{
+    width: 500px;
+    height: 200px;
+    background-color: red;  
 }
