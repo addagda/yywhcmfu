@@ -15,7 +15,7 @@
         .a{
             width: 100%;
             height: 80px;
-            background-color: red;
+            background-color: gainsboro;
             display: flex;
             justify-content: space-between;
             padding-top: 20px;
@@ -23,12 +23,30 @@
         .a img{
             width: 50px;
             height: 50px;
+            margin-left: 10px;
         }
         .a input {
             width: 150px;
             height: 20px;
-            
+            margin-right: 10px;
+            border-radius: 15px;
+            border: none;
         }    
+        .introduce .unnecessary img{
+            width: 200px;
+            height: 250px;
+            /* margin-top: px; */
+        }
+        .introduce .unnecessary{
+            display: flex;
+        }
+        .introduce .unnecessary .typeface{
+            width: 220px;
+            height: 175px;
+        }
+        .middleware{
+            height: 350px;
+        }
     </style>
 </head>
 <body>
@@ -41,5 +59,25 @@
         </div>
         <input type="text" placeholder="请输入搜索内容">
     </div>
+    <div class="middleware"></div>
+    <!-- 公司介绍部分 -->
+    <div class="introduce">
+        <h3>公司介绍</h3>
+        <div class="unnecessary">
+            <img src="https://yywhcmfw.com.cn/img/%E4%B8%8B%E8%BD%BD.jpg" alt="">
+            <div class="typeface">
+                <h4>从美开始，不止于美</h4>
+                <h6>优美的形体、优雅的气质，是对女性的最高赞誉。
+                    灵动的神韵，得体的仪态, 是女性美的最高境界。
+                    从眼神、表情、手势、体态,到坐、站、行、举、待人接物，
+                    通过各种雅姿美态的专业训练，修炼女性内在灵秀，雕琢女性优雅气质，掌握美丽自信的核心密码，成为优雅智慧、光彩照人的魅力女神，轻松驾驭生命中的所有角色。
+                    不仅润泽他人，更能滋养自己，共同收获美满人生。
+                </h6>
+                <h4>公司地址:</h4>
+                <h6>山东省济南市历城区汉峪金谷人工智能大厦B区7F</h6>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
